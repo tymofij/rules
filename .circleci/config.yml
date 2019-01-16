@@ -1,4 +1,5 @@
 version: 2
+
 jobs:
   build:
     docker:
@@ -10,4 +11,4 @@ jobs:
           command: echo Hello, world.
       - run:
           name: Print the Current Time
-          command: date
+          command: python --version
